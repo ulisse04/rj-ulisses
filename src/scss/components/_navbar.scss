@@ -1,0 +1,90 @@
+header {
+    background-color: rgb(112, 38, 106);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+
+    &__logo {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__cateYcarro {
+        display: flex;
+    }
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__botones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        list-style: none;
+    }
+
+
+}
+
+.categorias {
+
+    &__botones {
+        font-family: $fuente;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: rgb(208, 143, 221);
+        padding: 0.3rem;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid;
+        border-width: 3px;
+        color: rgba(0, 0, 0, 0.815);
+        text-align: center;
+        margin: 0.625rem;
+        margin-top: 0.625rem;
+
+        &:hover {
+            color: #fff;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+        }
+    }
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    background-color: rgb(208, 143, 221);
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    color: rgba(0, 0, 0, 0.815);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    &__logo {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    &__cantidadProds {
+        margin-right: 10px;
+        font-weight: bolder;
+    }
+}

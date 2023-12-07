@@ -1,0 +1,14 @@
+$fuente: 'overt', sans-serif;
+
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: overt;
+    src: url(../fonts/overt.ttf);
+}
+
+h2{
+    font-family: $fuente;
+}

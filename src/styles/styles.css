@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: overt;
+  src: url(../fonts/overt.ttf);
+}
+h2 {
+  font-family: "overt", sans-serif;
+}
+
+header {
+  background-color: rgb(112, 38, 106);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__logo {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__cateYcarro {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  list-style: none;
+}
+
+.categorias__botones {
+  font-family: "overt", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(208, 143, 221);
+  padding: 0.3rem;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  color: rgba(0, 0, 0, 0.815);
+  text-align: center;
+  margin: 0.625rem;
+  margin-top: 0.625rem;
+}
+.categorias__botones:hover {
+  color: #fff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+}
+.categorias a {
+  text-decoration: none;
+}
+
+.carrito {
+  display: flex;
+  align-items: center;
+  background-color: rgb(208, 143, 221);
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  color: rgba(0, 0, 0, 0.815);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.carrito__logo {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.carrito__cantidadProds {
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=styles.css.map */
