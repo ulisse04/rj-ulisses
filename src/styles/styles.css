@@ -10,6 +10,10 @@ h2 {
   font-family: "overt", sans-serif;
 }
 
+.fuente {
+  font-family: "overt", sans-serif;
+}
+
 header {
   background-color: rgb(112, 38, 106);
   display: flex;
@@ -84,6 +88,44 @@ header {
 .carrito__cantidadProds {
   margin-right: 10px;
   font-weight: bolder;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+.productos__tarjeta {
+  display: grid;
+  grid-template-rows: auto auto 30px 50px;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+}
+.productos__tarjeta h3 {
+  text-align: center;
+  margin: 5px;
+}
+.productos__tarjeta p {
+  text-align: center;
+}
+
+.tarjeta__boton {
+  font-family: "overt", sans-serif;
+  font-weight: bolder;
+  background-color: rgb(208, 143, 221);
+  padding: 0.3rem;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  margin: 0.625rem;
+  margin-top: 0.625rem;
+}
+.tarjeta__boton:hover {
+  color: #fff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=styles.css.map */
