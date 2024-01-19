@@ -1,6 +1,5 @@
 import React from 'react';
 import electroBitsLogo from '../img/electrobits.png';
-import { ListadoCategorias } from './ListadoCategorias';
 import { CartWidget } from './CartWidget';
 import { Link } from "react-router-dom";
 
@@ -16,6 +15,34 @@ const links = [
   {
     label: "CPUs",
     href: "/productos/cpu",
+  },
+  {
+    label: "RAMs",
+    href: "/productos/ram",
+  },
+  {
+    label: "Almacenamiento",
+    href: "/productos/alma",
+  },
+  {
+    label: "GPUs",
+    href: "/productos/gpu",
+  },
+  {
+    label: "Refrigeracion",
+    href: "/productos/refri",
+  },
+  {
+    label: "Fuentes",
+    href: "/productos/fuente",
+  },
+  {
+    label: "Gabinetes",
+    href: "/productos/gabi",
+  },
+  {
+    label: "Perifericos",
+    href: "/productos/peri",
   }
 ];
 
@@ -38,7 +65,6 @@ export const Navbar = () => {
             {link.label}
           </Link>
         ))}
-        {/* <ListadoCategorias /> */}
         <CartWidget />
       </div>
     </header>

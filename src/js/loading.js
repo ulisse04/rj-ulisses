@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { productos_lista } from "./productos"
 
 export const loadingTimer = () => {

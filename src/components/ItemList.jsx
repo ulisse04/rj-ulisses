@@ -1,17 +1,16 @@
 import ItemCard from "./ItemCard";
 
-
-const ItemList = ({productos}) => {
+const ItemList = ({ productos }) => {
 
   return (
     <section>
 
-      <h2 className="text-xl">Productos</h2>
+      <h2 className="text-2xl mt-2 ml-2 font-semibold">Productos</h2>
       <hr />
 
-        <div className="productos">
-            {productos.map((item) => <ItemCard key={item.id} item={item}/>)}
-        </div>
+      <div className="productos">
+        {productos.map((item) => <ItemCard key={item.id} item={item} />)}
+      </div>
 
     </section>
   );

@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react"
-import { loadingTimer } from "../js/loading"
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom"
 import ItemList from "./ItemList";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../firebase/config";
+import Loading from "./Loading";
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
@@ -12,28 +14,34 @@ const ItemListContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        loadingTimer()
-            .then((data) => {
-                const items = categoryId
-                    ? data.filter(prod => prod.cat === categoryId)
-                    : data
+        const productosRef = collection(db, 'productos')
+        const docsRef = categoryId
+            ? query(productosRef, where('cat', '==', categoryId))
+            : productosRef
 
-                setProductos(items)
+        getDocs(docsRef)
+            .then((querySnapshot) => {
+                const docs = querySnapshot.docs.map(doc => {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }
+                })
+
+                console.log(docs)
+                setProductos(docs)
             })
             .finally(() => setLoading(false))
     }, [categoryId])
 
     return (
-        <main>
-            <section>
-                {loading ? (
-                    <h2 className="text-xl">Espere un momento...</h2>
-                ) : (
-                    <ItemList productos={productos} />
-                )}
-            </section>
-        </main>
-
+        <>
+            {
+                loading
+                    ? <Loading />
+                    : <ItemList productos={productos} />
+            }
+        </>
     )
 }
 

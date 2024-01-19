@@ -1,0 +1,260 @@
+[{
+    "cat": "moth",
+    "id": 1,
+    "img": "../src/img/productos/moth_gigabyte_b660_aourus_master_lga1700.png",
+    "name": "Mother GIGABYTE B660 Aorus Master DDR4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 220000,
+    "stock": 25
+},
+{
+    "cat": "moth",
+    "id": 2,
+    "img": "../src/img/productos/moth_gigabyte_z690_ud.png",
+    "name": "Motherboard GIGABYTE Z690 UD DDR5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 240000,
+    "stock": 25
+},
+{
+    "cat": "moth",
+    "id": 3,
+    "img": "../src/img/productos/moth_gigabyte_a320m-h.png",
+    "name": "Motherboard GIGABYTE GA-A320M-H 1.1 DDR4 AM4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 60000,
+    "stock": 25
+},
+
+{
+    "cat": "cpu",
+    "id": 4,
+    "img": "../src/img/productos/cpu_ryzen9_7900x.png",
+    "name": "AMD Ryzen 9 7900X",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 320000,
+    "stock": 25
+},
+{
+    "cat": "cpu",
+    "id": 5,
+    "img": "../src/img/productos/cpu_ryzen5_2400g.png",
+    "name": "AMD Ryzen™ 5 2400G",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 100000,
+    "stock": 25
+},
+{
+    "cat": "cpu",
+    "id": 6,
+    "img": "../src/img/productos/cpu_intel_i5_12400f.png",
+    "name": "Intel Core i5-12400F 4.4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 110000,
+    "stock": 25
+},
+
+{
+    "cat": "ram",
+    "id": 7,
+    "img": "../src/img/productos/ram_adata_xpg_spectrix_d50.png",
+    "name": "Adata Xpg Spectrix D50 White 8gb 3600mhz Ddr4 Cl18",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 42500,
+    "stock": 25
+},
+{
+    "cat": "ram",
+    "id": 8,
+    "img": "../src/img/productos/ram_corsair_dominator_platinum_rgb.png",
+    "name": "Corsair Dominator Platinum RGB 2 x 8 GB",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 85000,
+    "stock": 25
+},
+{
+    "cat": "ram",
+    "id": 9,
+    "img": "../src/img/productos/ram_corsair_vengeance_rgb_pro.png",
+    "name": "Corsair Vengeance 16gb (2x8gb) 3200mhz Rgb Pro Ddr4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 40000,
+    "stock": 25
+},
+
+{
+    "cat": "alma",
+    "id": 10,
+    "img": "../src/img/productos/alm_corsair_ssd_2.0tb_mp600_pro_nh.png",
+    "name": "Corsair SSD 2.0TB MP600 PRO NH NVMe PCIE4x4 M.2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 850000,
+    "stock": 25
+},
+{
+    "cat": "alma",
+    "id": 11,
+    "img": "../src/img/productos/alm_corsair_ssd_2.0tb_mp600_pro.png",
+    "name": "Corsair SSD 2.0TB MP600 PRO NVMe PCIEx4 M.2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 95000,
+    "stock": 25
+},
+{
+    "cat": "alma",
+    "id": 12,
+    "img": "../src/img/productos/alm_wd_red_sa500_nas_ssd_2280.png",
+    "name": "WD Red™ SA500 NAS SSD SATA III M.2 2280",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 45000,
+    "stock": 25
+},
+
+{
+    "cat": "gpu",
+    "id": 13,
+    "img": "../src/img/productos/gpu_rtx_3060_ti_asus-ko_o8g_v2_lhr.png",
+    "name": "RTX 3060 TI ASUS KO O8G V2 LHR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 350000,
+    "stock": 25
+},
+{
+    "cat": "gpu",
+    "id": 14,
+    "img": "../src/img/productos/gpu_msi_nvidia_rtx_3060_ti_ventus-2x_ocv1_lhr.png",
+    "name": "ASUS NVIDIA GeForce RTX 3060 Ti Dual V2 OC 8GB GDDR6 PCIe 4.0 LHR",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 320000,
+    "stock": 25
+},
+{
+    "cat": "gpu",
+    "id": 15,
+    "img": "../src/img/productos/gpu_evga_rtx_3060_xc_lhr.png",
+    "name": "Evga Geforce Rtx 3060 Xc 12gb Lhr",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 225000,
+    "stock": 25
+},
+
+{
+    "cat": "refri",
+    "id": 16,
+    "img": "../src/img/productos/cool_corsair_h100_rgb.png",
+    "name": "Corsair H100 RGB 240mm Performance Liquid CPU Cooler",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 175000,
+    "stock": 25
+},
+{
+    "cat": "refri",
+    "id": 17,
+    "img": "../src/img/productos/cool_corsair_hy_h100i_rgb_platinum_se.png",
+    "name": "Corsair Hydro Series H100i RGB PLATINUM SE 240mm Liquid CPU Cooler",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 150000,
+    "stock": 25
+},
+{
+    "cat": "refri",
+    "id": 18,
+    "img": "../src/img/productos/cool_corsair_hy_h105.png",
+    "name": "Corsair Hydro Series H105 Liquid CPU Cooler",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 150000,
+    "stock": 25
+},
+
+{
+    "cat": "fuente",
+    "id": 19,
+    "img": "../src/img/productos/psu_msi_mpg_a750gf_750w_80g.png",
+    "name": "MSI MPG A750GF 750 WATT 80 PLUS GOLD",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 85000,
+    "stock": 25
+},
+{
+    "cat": "fuente",
+    "id": 20,
+    "img": "../src/img/productos/psu_asus_rog_strix_750w_80g.png",
+    "name": "ASUS ROG STRIX 750G Fully Modular 80 Plus Gold 750W",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 120000,
+    "stock": 25
+},
+{
+    "cat": "fuente",
+    "id": 21,
+    "img": "../src/img/productos/psu_asus_tuf750w_b.png",
+    "name": "ASUS TUF Gaming 750W Bronze PSU",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 75000,
+    "stock": 25
+},
+
+{
+    "cat": "gabi",
+    "id": 22,
+    "img": "../src/img/productos/case_fantech_cg80.png",
+    "name": "Fantech Gaming ATX Computer Case Black (CG80)",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 125000,
+    "stock": 25
+},
+{
+    "cat": "gabi",
+    "id": 23,
+    "img": "../src/img/productos/case_tuf_gt501.png",
+    "name": "TUF Gaming GT501",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 285000,
+    "stock": 25
+},
+{
+    "cat": "gabi",
+    "id": 24,
+    "img": "../src/img/productos/case_fourze_t900.png",
+    "name": "FOURZE T900 ATX Gaming Case",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 65000,
+    "stock": 25
+},
+
+{
+    "cat": "peri",
+    "id": 25,
+    "img": "../src/img/productos/per_razer_viper_8khz.png",
+    "name": "Razer Viper 8khz Ambidextrous",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 250000,
+    "stock": 25
+},
+{
+    "cat": "peri",
+    "id": 26,
+    "img": "../src/img/productos/per_razer_deathadder_v2-lite.png",
+    "name": "Razer Deathadder V2 Lite",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 180000,
+    "stock": 25
+},
+{
+    "cat": "peri",
+    "id": 27,
+    "img": "../src/img/productos/per_logitech_g3.png",
+    "name": "Mouse Inalámbrico Gamer Logitech G3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 140000,
+    "stock": 25
+},
+{
+    "cat": "peri",
+    "id": 28,
+    "img": "../src/img/productos/per_hyperx_alloy_origins_65.png",
+    "name": "Teclado HyperX Alloy Origins 65%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "price": 160000,
+    "stock": 25
+}]

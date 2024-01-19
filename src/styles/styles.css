@@ -128,4 +128,43 @@ header {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
+.detail {
+  display: grid;
+  grid-template-areas: "foto detalles" "cantidad boton";
+  grid-template-columns: 500px 1fr;
+  gap: 10px;
+  margin: 50px;
+}
+.detail__img {
+  grid-area: foto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail__detalles {
+  grid-area: detalles;
+}
+.detail__boton {
+  grid-area: boton;
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.detail__cantidad {
+  grid-area: cantidad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail__terminar {
+  grid-area: boton;
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
