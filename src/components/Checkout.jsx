@@ -43,7 +43,7 @@ const Checkout = () => {
         };
 
         const batch = writeBatch(db);
-        const ordersRef = collection(db, "orders");
+        const ordersRef = collection(db, "ordenes");
         const productsRef = collection(db, 'productos')
         const itemsQuery = query(productsRef, where(documentId(), 'in', cart.map(prod => prod.id)))
 
@@ -88,7 +88,7 @@ const Checkout = () => {
         return (
             <div className="container m-auto mt-10">
                 <h2 className="text-2xl font-semibold">¡Muchas gracias por tu compra!</h2>
-                <hr />
+                <hr/>
                 <p>Tu código de orden es: {orderId}</p>
                 <p>Podras recibir tu compra dentro de las 72hs hábiles en la dirección establecida.</p>
             </div>
@@ -97,10 +97,10 @@ const Checkout = () => {
 
     return (
         <div className="container m-auto mt-10">
-            <h2 className="text-4xl font-semibold">Checkout</h2>
+            <h2 className="text-4xl font-semibold">Checkout final de compra</h2>
             <hr />
 
-            <h4>Ingresa tus datos:</h4>
+            <h4>Ingresá los datos de contacto para finalizar la compra:</h4>
             <form
                 onSubmit={handleSubmit}
                 className="flex flex-col gap-4 max-w-md mt-4"
@@ -150,7 +150,7 @@ const Checkout = () => {
                     name="confirmarEmail"
                 />
 
-                <button type="submit" className="bg-blue-500 text-white py-2">
+                <button type="submit" className="tarjeta__boton">
                     Enviar
                 </button>
             </form>
